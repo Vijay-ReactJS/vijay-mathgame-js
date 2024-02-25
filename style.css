@@ -138,15 +138,45 @@ body
     box-shadow: 0px 4px 0px 0px rgba(0,0,0,.5) ;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 769px) and (max-width: 1025px) {
     .box {
-        width: 100%;
+        width: 100px;
         margin: 2% 0;
+        font-size: 1.5rem;
         
     }
 
     #question {
-        font-size: 12vw;
+        font-size: 10vw;
+        padding: 2vh;
+    }
+
+    #instruction {
+        height: 8vw;
+        font-size: 2rem;
+        line-height: 2;
+    }
+
+    #gameover {
+        font-size: 4vw;
+        top: 8vh;
+    }
+
+    #timeremaining{
+        top: 35vh;
+    }
+  }
+
+@media only screen and (max-width: 768px) {
+    .box {
+        width: 100px;
+        margin: 2% 0;
+        font-size: 30px;
+        
+    }
+
+    #question {
+        font-size: 19vw;
         padding: 2vh;
     }
 
